@@ -1,9 +1,10 @@
-## import sys
-## import os
-## sys.path.append(os.path.abspath("\Users\User\OneDrive\Desktop\git\Python\exampleAssessment\Tests"))
+##import sys
+##import os
+##sys.path.append(os.path.abspath("\Users\User\OneDrive\Desktop\git\Python\exampleAssessment\Tests"))
 
 import pytest
-from Tests import example
+##from Tests 
+import example
 
 def test_endsPy():
     assert example.endsPy("ilovepy") == True

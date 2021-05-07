@@ -1,4 +1,4 @@
-
+'''
 import pytest
 
 def vowels(word):
@@ -20,4 +20,20 @@ def final(var1,var2,var3):
     return(var1+var2+var3)
 
 print(final(a,b,c))
+'''
+
+def if_demo(s):
+  if s == 'Hello' or s == 'Hi':
+    s = s + ' nice to meet you'
+  else:
+    s = s + ' woo hoo!'
+  return s
+
+  
+def a_bigger(a,b):
+    if a > b and (a - b) >= 2:
+        return True
+    else:
+        return false
+
 

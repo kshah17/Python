@@ -12,10 +12,10 @@
 	# <HINT>
 
 	# What was the name of the function we have seen which changes the case of a string?  Use your CLI to access the Python documentation and get help(str).
-    
+
 def endsPy(input):
-	sent= str(input).lower()
-	if sent.endswith("py"):
+	word = str(input).lower()
+	if word.endswith("py"):
 		return True
 	else:
 		return False
